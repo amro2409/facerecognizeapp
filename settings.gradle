@@ -1,0 +1,4 @@
+include ':mllibrary'
+include ':efacerecognitionmodule'
+//include ':app'
+rootProject.name = "Face Recognize ML"

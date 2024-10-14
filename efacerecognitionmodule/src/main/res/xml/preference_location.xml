@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_category_alloewed_location"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="@string/pref_category_alloewed_location"/>
+    <!-- إعداد إدخال إحداثيات خطوط العرض -->
+    <EditTextPreference
+        android:key="@string/pref_key_latitude"
+        android:title="@string/pref_title_latitude"
+        android:summary="@string/pref_summary_latitude"
+        android:inputType="numberDecimal"
+        android:defaultValue="34.7749" />
+
+    <!-- إعداد إدخال إحداثيات خطوط الطول -->
+    <EditTextPreference
+        android:key="@string/pref_key_longitude"
+        android:title="@string/pref_title_longitude"
+        android:summary="@string/pref_summary_longitude"
+        android:inputType="numberDecimal"
+        android:defaultValue="-120.4194" />
+
+    <!-- إعداد إدخال نصف القطر المسموح به -->
+    <EditTextPreference
+        android:key="@string/pref_key_radius"
+        android:title="@string/pref_title_radius"
+        android:summary="@string/pref_summary_radius"
+        android:inputType="number"
+        android:defaultValue="100" />
+
+</PreferenceScreen>

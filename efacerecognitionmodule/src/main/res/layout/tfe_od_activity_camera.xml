@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    app:statusBarBackground="@color/main_color_500">
+
+    <!-- محتوى الصفحة الرئيسية -->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@android:color/black"/>
+
+    <!-- (Toolbar) -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <include layout="@layout/tool_bar_layout"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- (Bottom Sheet) -->
+    <include
+        android:id="@+id/bottom_sheet_layout"
+        layout="@layout/tfe_od_layout_bottom_sheet"/>
+
+    <!--(Floating Action Buttons) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_switchcam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_switch_camera_24"
+        app:backgroundTint="@color/main_color_500"
+        app:layout_anchor="@id/bottom_sheet_layout"
+        app:layout_anchorGravity="end|top"
+        app:tint="@android:color/white"
+        app:borderWidth="0dp"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/main_color_500"
+        app:tint="@android:color/white"
+        app:borderWidth="0dp"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_search_category_default"
+        android:visibility="gone"
+        app:backgroundTint="@color/main_color_500"
+        app:tint="@android:color/white"
+        app:borderWidth="0dp"
+        app:layout_anchor="@id/bottom_sheet_layout"
+        app:layout_anchorGravity="end|top"
+        tools:ignore="ContentDescription" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:anim/accelerate_decelerate_interpolator" android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="2000" android:repeatCount="infinite"
+        android:repeatMode="restart" android:valueTo="-550" android:valueType="floatType" android:propertyName="x" />
+</set>

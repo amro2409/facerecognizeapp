@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Toolbar -->
+<com.google.android.material.appbar.MaterialToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.Toolbar.PrimarySurface"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:navigationIcon="@drawable/ic_close_24"
+    app:navigationIconTint="@color/white"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:title="@string/app_name"
+    app:titleTextAppearance="@style/TextAppearance.Material3.ActionBar.Title"
+    app:titleCentered="true"
+    app:titleTextColor="?colorOnPrimary" />

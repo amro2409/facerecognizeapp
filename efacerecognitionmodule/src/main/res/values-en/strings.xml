@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translation_description="EFace Registration&amp;Recognition Detection demo app [CHAR_LIMIT=50]">EFace Recognition </string>
+    <string name="fiea_tflite_model_white"><font color="white"> FIEA</font><u><font color="#F57C00">TFLite-Model</font></u></string>
+
+    <!--
+        <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">Face Recognition</string>
+    -->
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="title_dailog_add_face">تسجيل الوجه</string>
+
+    <string name="copy_right_by_is_demo"><font color="#F57C00">Copy Right by</font>-IS-Demo</string>
+    <!--main screen-->
+    <string name="main_title_fiea_tflite_model">FIEA<b><font color="#F57C00">TFLite-Model</font></b></string>
+    <string name="main_btn_title_register_face">Register Face</string>
+    <string name="main_btn_title_recognition_face">Recognition Face</string>
+    <string name="main_btn_title_settings">Settings</string>
+
+    <string name="head_face_recognition">Recognition Face</string>
+
+    <string name="cdiv_register_face_icon">Register Face Icon</string>
+    <string name="cdiv_verify_face_icon">Verify Face Icon</string>
+    <string name="cdiv_settings_icon">Settings Icon</string>
+    <string name="old_register_face">Old Register Face</string>
+    <string name="cdiv_logo_icon">logo Icon</string>
+
+    <!--success recognition screen-->
+    <string name="head_success_recognition_result">Success recognition Result</string>
+    <string name="name">Name</string>
+    <string name="status">Status</string>
+    <string name="time">Time</string>
+    <string name="distance">Distance</string>
+
+
+    <!-- Strings for location preference.screen -->
+    <string name="pref_title_latitude" >Latitude</string>
+    <string name="pref_summary_latitude" >Enter the latitude of the allowed location</string>
+    <string name="pref_key_latitude" translatable="false">pref_latitude</string>
+
+    <string name="pref_title_longitude" >Longitude</string>
+    <string name="pref_summary_longitude" >Enter the longitude of the allowed location</string>
+    <string name="pref_key_longitude" translatable="false">pref_longitude</string>
+
+    <string name="pref_title_radius" >Allowed Radius (meters)</string>
+    <string name="pref_summary_radius" >EEnter the allowed radius for the location</string>
+    <string name="pref_key_radius" translatable="false">pref_radius</string>
+
+
+    <string name="message_progress_waiting">يرجى الانتظار، يتم التحقق من هويتك</string>
+    <string name="setting_location">Location</string>
+    <string name="setting_period_work">Period work</string>
+    <string name="setting_management_account">Management Account</string>
+    <string name="setting_language">Language</string>
+    <string name="language_arb">Arabic</string>
+    <string name="language_en">English</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+
+</resources>

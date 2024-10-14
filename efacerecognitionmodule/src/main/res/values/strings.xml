@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translation_description="تطبيق تجريبي لتسجيل والتعرف على الوجوه [CHAR_LIMIT=50]">تعرّف على الوجوه</string>
+    <string name="fiea_tflite_model_white"><font color="white"> FIEA</font><u><font color="#F57C00">TFLite-Model</font></u></string>
+
+    <string name="tfe_od_camera_error" translation_description="خطأ بخصوص دعم الكاميرا [CHAR_LIMIT=40]">هذا الجهاز لا يدعم واجهة برمجة التطبيقات Camera2.</string>
+    <string name="title_dailog_add_face">تسجيل الوجه</string>
+
+    <string name="copy_right_by_is_demo"><font color="#F57C00">حقوق النشر بواسطة</font>-IS-Demo</string>
+    <string name="main_title_fiea_tflite_model">FIEA<b><font color="#F57C00">TFLite-Model</font></b></string>
+    <string name="main_btn_title_register_face">تسجيل الوجه</string>
+    <string name="main_btn_title_recognition_face">التعرف على الوجه</string>
+    <string name="main_btn_title_settings">الإعدادات</string>
+
+    <string name="head_face_recognition">التعرف على الوجه</string>
+
+    <string name="cdiv_register_face_icon">أيقونة تسجيل الوجه</string>
+    <string name="cdiv_verify_face_icon">أيقونة التحقق من الوجه</string>
+    <string name="cdiv_settings_icon">أيقونة الإعدادات</string>
+    <string name="old_register_face">تسجيل الوجه القديم</string>
+    <string name="cdiv_logo_icon">أيقونة الشعار</string>
+
+    <string name="head_success_recognition_result">نتيجة التعرف الناجحة</string>
+    <string name="name">الاسم</string>
+    <string name="status">الحالة</string>
+    <string name="time">الوقت</string>
+    <string name="distance">المسافة</string>
+
+    <string name="pref_title_latitude">خط العرض</string>
+    <string name="pref_summary_latitude">أدخل خط العرض للموقع المسموح به</string>
+    <string name="pref_key_latitude" translatable="false">pref_latitude</string>
+
+    <string name="pref_title_longitude">خط الطول</string>
+    <string name="pref_summary_longitude">أدخل خط الطول للموقع المسموح به</string>
+    <string name="pref_key_longitude" translatable="false">pref_longitude</string>
+
+    <string name="pref_title_radius">نطاق مسموح به (متر)</string>
+    <string name="pref_summary_radius">أدخل النطاق المسموح به للموقع</string>
+    <string name="pref_key_radius" translatable="false">pref_radius</string>
+
+    <string name="message_progress_waiting">يرجى الانتظار، يتم التحقق من هويتك</string>
+    <string name="setting_location">الموقع</string>
+    <string name="setting_period_work">فترة العمل</string>
+    <string name="setting_management_account">إدارة الحساب</string>
+    <string name="setting_language">اللغة</string>
+    <string name="language_arb">العربية</string>
+    <string name="language_en">الإنجليزية</string>
+
+    <string name="ok">موافق</string>
+    <string name="cancel">الغاء</string>
+</resources>
